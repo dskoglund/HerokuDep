@@ -5,14 +5,14 @@
   "main": "index.js",
   "directories": {
     "test": "mocha",
-    "tdd": "mocha -w -R nyan",
-    "start": "node .",
-    "watch": "nodemon ."
   },
   "engines": {
     "node": ">6.0.0"
   },
   "scripts": {
+    "tdd": "mocha -w -R nyan",
+    "watch": "nodemon .",
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Skoglund",
