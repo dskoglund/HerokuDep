@@ -13,7 +13,7 @@
     "tdd": "mocha -w -R nyan",
     "watch": "nodemon .",
     "start": "node .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "David Skoglund",
   "license": "ISC",
