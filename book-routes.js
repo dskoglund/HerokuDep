@@ -5,7 +5,7 @@ const bookRouter = function(db) {
     const books = db.collection('books')
     const router = new Router()
 
-    router.get('/', (req, res) => {
+    router.get('/books', (req, res) => {
       books.find().toArray((err, docs) => {
         if(err) {
           return res.sendStatus(500)
@@ -14,7 +14,7 @@ const bookRouter = function(db) {
       })
     })
 
-    router.post('/', (req, res) => {
+    router.post('/books', (req, res) => {
       books.insertOne(req.body, (err, result) => {
         if(err) {
           return res.sendStatus(500)
