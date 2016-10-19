@@ -9,6 +9,9 @@
     "start": "node .",
     "watch": "nodemon ."
   },
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
