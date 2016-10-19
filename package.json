@@ -4,7 +4,7 @@
   "description": "first heroku deploy",
   "main": "index.js",
   "directories": {
-    "test": "mocha",
+    "test": "mocha"
   },
   "engines": {
     "node": ">6.0.0"
