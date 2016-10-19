@@ -3,8 +3,4 @@ node_js:
 - '6'
 services:
 - mongodb
-<<<<<<< HEAD
 script: npm test
-=======
-scripts: nmp test
->>>>>>> e957bb3d99685aca577d65690ba05e1d671ec1f1
